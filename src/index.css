@@ -97,11 +97,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.953rem;
+  font-size: 1.6rem;
 }
 
 h4 {
-  font-size: 1.563rem;
+  font-size: 1.3rem;
 }
 
 h5 {
@@ -273,13 +273,14 @@ main {
 }
 .container {
   /* border: 2px solid red; */
-  width: 90vw;
+  width: 95vw;
   max-width: var(--fixed-width);
   margin: 5rem 0;
   background: var(--white);
   border-radius: var(--borderRadius);
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 1.5rem;
   box-shadow: var(--shadow-1);
+  overflow: hidden;
 }
 .container h3 {
   margin-bottom: 2rem;

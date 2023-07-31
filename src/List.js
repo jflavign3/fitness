@@ -1,5 +1,5 @@
 import React from 'react';
-import Exercise from './Exercise';
+import Exercise from './Exercise.js';
 
 const List = ({ exercises }) => {
  
