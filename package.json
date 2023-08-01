@@ -7,10 +7,15 @@
     "build": "CI= react-scripts build",
     "local-build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "netlify dev",
+    "debug": "netlify dev --inspect",
+    "netlify": "netlify"
   },
   "dependencies": {
+    "@netlify/functions": "^1.6.0",
     "netlify": "^13.1.10",
+    "netlify-lambda": "^2.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
